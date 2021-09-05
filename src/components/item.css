@@ -1,0 +1,31 @@
+.item {
+    border:1px solid var(--border-color);
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    padding:5px;
+}
+
+.catalog-page .item-container {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.item:hover{
+    border: 1px solid yellow;
+}
+
+.item h5{
+    margin-top: 5px;
+}
+
+.item .item-controls{
+    display:flex;
+   justify-content: space-between;
+   padding: 0 35px 0 35px;
+   
+   
+  
+}
